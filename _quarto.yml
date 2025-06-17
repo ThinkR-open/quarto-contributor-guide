@@ -1,0 +1,32 @@
+project:
+  type: book
+
+book:
+  title: "Contributor's Guide"
+  author: "Norah Jones"
+  date: "6/16/2025"
+  chapters:
+    - index.qmd
+    - project-overview.qmd
+    - communication-and-governance.qmd
+    - architecture.qmd
+    - contributing.qmd
+    - development-environment.qmd
+    - coding-standards.qmd
+    - testing.qmd
+    - documentation.qmd
+    - faq.qmd
+    - resources.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+

@@ -1,0 +1,37 @@
+# Frequently Asked Questions (FAQ)
+
+
+## What is XYZ?
+
+XYZ is an open-source project designed to [briefly describe the purpose and functionality of the project]. It aims to [mention the goals or problems it addresses].
+
+## How can I contribute to XYZ?
+
+You can contribute to XYZ in various ways, including:
+
+- Reporting bugs or issues
+- Suggesting new features or improvements
+- Writing documentation
+- Reviewing pull requests
+- Developing new features or fixing bugs
+
+To get started, check out the [Contributing Guide](./contributing.qmd) for detailed instructions on how to contribute.
+
+## How do I report a bug?
+
+If you encounter a bug in XYZ, please report it by following these steps:
+
+1. Check the [issue tracker]() to see if the bug has already been reported.
+2. If not, create a new issue with a clear and descriptive title.
+3. Provide detailed information about the bug, including steps to reproduce it, expected behavior, and actual behavior.
+4. Include any relevant screenshots or error messages to help us understand the issue.
+
+## How do I request a new feature?
+
+If you have an idea for a new feature or improvement, please follow these steps:
+
+1. Check the [issue tracker]() to see if the feature has already been requested.
+2. If not, create a new issue with a clear and descriptive title.
+3. Describe the feature in detail, including its purpose, how it would work, and any potential benefits.
+4. If possible, provide examples or mockups to illustrate your idea.
+

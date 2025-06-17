@@ -1,0 +1,21 @@
+# Coding standards
+
+## Formatting
+
+The code is formatted using [Air](https://github.com/posit-dev/air) with the extra styling: please ensure that you add a line break after each parenthesis.
+
+Make sure to run the formatter before committing any changes.
+
+## Naming conventions
+
+Please follow these naming conventions to maintain consistency across the codebase:
+
+- Use `snake_case` for variable and function names.
+- Use `CamelCase` for class names.
+- Use `UPPER_SNAKE_CASE` for constants.
+- Use `lowercase` for package names.
+- Use `lowercase` for file & directory names.
+
+Variable names should be nouns, and be descriptive and concise, avoiding abbreviations unless they are widely recognized.
+
+Also, function names should be verbs that describe the action they perform, while class names should be nouns that represent the entity they model.

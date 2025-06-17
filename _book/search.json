@@ -1,0 +1,352 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Contributor’s Guide",
+    "section": "",
+    "text": "Index\nWelcome to XYZ Contributor’s Guide!\nThis guide is designed to help you navigate the process of contributing to the project. Whether you’re a seasoned developer or new to open source, you’ll find valuable information here to get started.\nThis guide is structured to provide a comprehensive overview of the contribution process, including:\n\nA project overview and goals\nHow to communicate with the community and how the project is governed\nThe architecture of the project\nHot to get involved in the project\nHow to set up your development environment\nGuidelines for writing code and documentation\nTesting your contributions\nFrequently Asked Questions and external resources\n\nWe encourage you to read through the entire guide, as it will help you understand the project’s structure and the expectations for contributions. If you have any questions or need assistance, feel free to reach out to the community through our communication channels.\nWe appreciate your interest in contributing to XYZ and look forward to your contributions!",
+    "crumbs": [
+      "Index"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "project-overview.html",
+    "href": "project-overview.html",
+    "title": "1  Project Overview",
+    "section": "",
+    "text": "1.1 XYZ goals\nXYZ is an amazing project that aims to solve problems by providing solutions.\nOur goals include:",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Overview</span>"
+    ]
+  },
+  {
+    "objectID": "project-overview.html#xyz-goals",
+    "href": "project-overview.html#xyz-goals",
+    "title": "1  Project Overview",
+    "section": "",
+    "text": "Being awesome\nHelping people\nMaking the world a better place",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project Overview</span>"
+    ]
+  },
+  {
+    "objectID": "communication-and-governance.html",
+    "href": "communication-and-governance.html",
+    "title": "2  Communication and Governance",
+    "section": "",
+    "text": "2.1 Communication Channels\nEffective communication and governance are essential for the success of the XYZ project. This section outlines the key aspects of how we communicate within the community and how the project is governed.\nWe use various communication channels to facilitate collaboration and information sharing among contributors:",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Communication and Governance</span>"
+    ]
+  },
+  {
+    "objectID": "communication-and-governance.html#communication-channels",
+    "href": "communication-and-governance.html#communication-channels",
+    "title": "2  Communication and Governance",
+    "section": "",
+    "text": "Slack: Our primary real-time communication platform. Join the #xyz channel to connect with other contributors.\nGitHub Issues: Use GitHub issues to report bugs, request features, and discuss project-related topics.\nMailing List: Subscribe to our mailing list for announcements and updates.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Communication and Governance</span>"
+    ]
+  },
+  {
+    "objectID": "communication-and-governance.html#governance-model",
+    "href": "communication-and-governance.html#governance-model",
+    "title": "2  Communication and Governance",
+    "section": "2.2 Governance Model",
+    "text": "2.2 Governance Model\nThe XYZ project follows a collaborative governance model, where decisions are made collectively by the community. Key roles include:\n\nProject Leads: Individuals who guide the project direction and ensure alignment with the project’s goals.\nMaintainers: Experienced contributors responsible for overseeing the project and making final decisions on contributions.\nContributors: All community members who contribute to the project, regardless of their experience level.\n\nWe encourage open discussions and value diverse perspectives in our decision-making process.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Communication and Governance</span>"
+    ]
+  },
+  {
+    "objectID": "communication-and-governance.html#code-of-conduct",
+    "href": "communication-and-governance.html#code-of-conduct",
+    "title": "2  Communication and Governance",
+    "section": "2.3 Code of Conduct",
+    "text": "2.3 Code of Conduct\nTo ensure a welcoming and inclusive environment, we adhere to a Code of Conduct. All contributors are expected to follow these guidelines when interacting with the community.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Communication and Governance</span>"
+    ]
+  },
+  {
+    "objectID": "architecture.html",
+    "href": "architecture.html",
+    "title": "3  Architecture",
+    "section": "",
+    "text": "3.1 Overview\nThe architecture of our project is designed to be modular and scalable, allowing for easy integration of new features and components. The system is built on a microservices architecture, which enables independent development and deployment of services.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "architecture.html#components",
+    "href": "architecture.html#components",
+    "title": "3  Architecture",
+    "section": "3.2 Components",
+    "text": "3.2 Components\nThe main components of the architecture include:\n\nFrontend: The user interface built with React, providing a responsive and interactive experience.\nBackend: The server-side logic implemented in Node.js, handling API requests and business logic.\nDatabase: A PostgreSQL database for persistent data storage, ensuring data integrity and reliability.\n\nHere is a schematic representation of the architecture:\n\n\n\nArchitecture Diagram",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Architecture</span>"
+    ]
+  },
+  {
+    "objectID": "contributing.html",
+    "href": "contributing.html",
+    "title": "4  Contributing to the Project",
+    "section": "",
+    "text": "4.1 Getting Started\nContributing to the XYZ project is a rewarding experience that helps improve the software and fosters a vibrant community. This guide provides an overview of how you can contribute effectively.\nTo get started with contributing, we recommend the following steps:",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Contributing to the Project</span>"
+    ]
+  },
+  {
+    "objectID": "contributing.html#getting-started",
+    "href": "contributing.html#getting-started",
+    "title": "4  Contributing to the Project",
+    "section": "",
+    "text": "Familiarize Yourself with the Project: Read the documentation and explore the codebase to understand the project’s structure and goals.\nJoin the Community: Engage with other contributors through our communication channels (e.g., Slack, GitHub Issues) to ask questions and share ideas.\nChoose a Contribution Type: Decide how you want to contribute, whether it’s fixing bugs, adding features, improving documentation, or providing support.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Contributing to the Project</span>"
+    ]
+  },
+  {
+    "objectID": "contributing.html#contribution-guidelines",
+    "href": "contributing.html#contribution-guidelines",
+    "title": "4  Contributing to the Project",
+    "section": "4.2 Contribution Guidelines",
+    "text": "4.2 Contribution Guidelines\nTo ensure a smooth contribution process, please follow these guidelines:\n\nCode Quality: Write clean, maintainable code and adhere to the project’s coding standards.\nTesting: Include tests for your changes and ensure all tests pass before submitting a contribution.\nDocumentation: Update documentation to reflect your changes and help others understand your contributions.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Contributing to the Project</span>"
+    ]
+  },
+  {
+    "objectID": "contributing.html#submitting-contributions",
+    "href": "contributing.html#submitting-contributions",
+    "title": "4  Contributing to the Project",
+    "section": "4.3 Submitting Contributions",
+    "text": "4.3 Submitting Contributions\nWhen you’re ready to submit your contribution, follow these steps:\n\nFork the Repository: Create a personal copy of the repository on GitHub.\nCreate a Feature Branch: Use a descriptive name for your branch (e.g., fix-typo or add-feature).\nMake Your Changes: Implement your changes and commit them with clear messages.\nOpen a Pull Request: Submit a pull request to the main repository, describing your changes and their impact.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Contributing to the Project</span>"
+    ]
+  },
+  {
+    "objectID": "contributing.html#conclusion",
+    "href": "contributing.html#conclusion",
+    "title": "4  Contributing to the Project",
+    "section": "4.4 Conclusion",
+    "text": "4.4 Conclusion\nWe appreciate your interest in contributing to the XYZ project! Your contributions help us improve the software and build a strong community. If you have any questions or need assistance, don’t hesitate to reach out.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Contributing to the Project</span>"
+    ]
+  },
+  {
+    "objectID": "development-environment.html",
+    "href": "development-environment.html",
+    "title": "5  How to set your development environment",
+    "section": "",
+    "text": "5.1 Prerequisites\nTo set up your development environment for the XYZ project, follow these steps:\nBefore you begin, ensure you have the following software installed on your machine:",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How to set your development environment</span>"
+    ]
+  },
+  {
+    "objectID": "development-environment.html#prerequisites",
+    "href": "development-environment.html#prerequisites",
+    "title": "5  How to set your development environment",
+    "section": "",
+    "text": "R: Version 4.0.0 or higher. You can download it from r-project.org.\nGit: Version control system to manage your code. Download it from git-scm.com.\nPostgreSQL: Database management system. Install it from postgresql.org.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How to set your development environment</span>"
+    ]
+  },
+  {
+    "objectID": "development-environment.html#setting-up-the-environment",
+    "href": "development-environment.html#setting-up-the-environment",
+    "title": "5  How to set your development environment",
+    "section": "5.2 Setting Up the Environment",
+    "text": "5.2 Setting Up the Environment\n\nClone the Repository: Open your terminal and run the following command to clone the XYZ project repository:\ngit clone https://github.com/your-username/xyz-project.git\ncd xyz-project\nInstall R Packages: Open R and run the following commands to install the required R packages:\nremotes::install_local()\nSet Up the Database: Create a PostgreSQL database for the project. You can do this using the following commands in your terminal:\n psql -U postgres\n CREATE DATABASE xyz_project;\nConfigure Database Connection: Create a configuration file in the project directory (e.g., config.yml) with the following content:\ndatabase:\n  host: localhost\n  port: 5432\n  dbname: xyz_project\n  user: your_username\n  password: your_password\nRun Database Migrations: If the project uses migrations, run the following command to set up the database schema:\nRscript -e \"library(dbx); dbx::migrate()\"\nStart the Application: You can now start the application by running the following command in your terminal:\nRscript -e \"library(xyz); xyz::start_app()\"\nAccess the Application: Open your web browser and navigate to http://localhost:8000 to access the XYZ application.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How to set your development environment</span>"
+    ]
+  },
+  {
+    "objectID": "development-environment.html#troubleshooting",
+    "href": "development-environment.html#troubleshooting",
+    "title": "5  How to set your development environment",
+    "section": "5.3 Troubleshooting",
+    "text": "5.3 Troubleshooting\nIf you encounter any issues during the setup process, consider the following troubleshooting steps:\n\nEnsure that all prerequisites are installed correctly.\nCheck the database connection settings in your configuration file.\nReview the project’s documentation for any specific setup instructions.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How to set your development environment</span>"
+    ]
+  },
+  {
+    "objectID": "coding-standards.html",
+    "href": "coding-standards.html",
+    "title": "6  Coding standards",
+    "section": "",
+    "text": "6.1 Formatting\nThe code is formatted using Air with the extra styling: please ensure that you add a line break after each parenthesis.\nMake sure to run the formatter before committing any changes.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Coding standards</span>"
+    ]
+  },
+  {
+    "objectID": "coding-standards.html#naming-conventions",
+    "href": "coding-standards.html#naming-conventions",
+    "title": "6  Coding standards",
+    "section": "6.2 Naming conventions",
+    "text": "6.2 Naming conventions\nPlease follow these naming conventions to maintain consistency across the codebase:\n\nUse snake_case for variable and function names.\nUse CamelCase for class names.\nUse UPPER_SNAKE_CASE for constants.\nUse lowercase for package names.\nUse lowercase for file & directory names.\n\nVariable names should be noun, and be descriptive and concise, avoiding abbreviations unless they are widely recognized.\nAlso, function names should be verbs that describe the action they perform, while class names should be nouns that represent the entity they model.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Coding standards</span>"
+    ]
+  },
+  {
+    "objectID": "testing.html",
+    "href": "testing.html",
+    "title": "7  Testing",
+    "section": "",
+    "text": "7.1 Run the test suite\nTesting is a crucial part of the development process, ensuring that your contributions work as intended and do not introduce new issues. This section provides an overview of how to test your contributions effectively.\nTo run the test suite for the XYZ project, follow these steps:\nThis command will execute all the tests defined in the project and provide you with a summary of the results.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Testing</span>"
+    ]
+  },
+  {
+    "objectID": "testing.html#run-the-test-suite",
+    "href": "testing.html#run-the-test-suite",
+    "title": "7  Testing",
+    "section": "",
+    "text": "Open your terminal and navigate to the project directory.\nRun the test command using the following command:\nRscript -e \"devtools::test()\"",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Testing</span>"
+    ]
+  },
+  {
+    "objectID": "testing.html#writing-tests",
+    "href": "testing.html#writing-tests",
+    "title": "7  Testing",
+    "section": "7.2 Writing Tests",
+    "text": "7.2 Writing Tests\nWhen writing tests for your contributions, follow these guidelines:\n\nUse the testthat package: This package provides a framework for writing unit tests in R. Ensure you have it installed by running:\ninstall.packages(\"testthat\")\nOrganize tests: add a new test using usethis::use_test(\"test_name\"). This will create a new test file in the tests/testthat/ directory.\nWrite clear and concise tests: Each test should focus on a specific functionality or behavior. Use descriptive names for your test functions to make it clear what they are testing.\nUse assertions: Use testthat assertions (e.g., expect_equal(), expect_true(), expect_error()) to verify that your code behaves as expected.\nRun tests frequently: Run your tests regularly during development to catch issues early. This will help you identify and fix problems before they become more complex.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Testing</span>"
+    ]
+  },
+  {
+    "objectID": "testing.html#running-the-check",
+    "href": "testing.html#running-the-check",
+    "title": "7  Testing",
+    "section": "7.3 Running the check",
+    "text": "7.3 Running the check\nTo run the R package check, use the following command:\nRscript -e \"devtools::check()\"\nThis command will perform a series of checks on your package, including running tests, checking for code style issues, and verifying package documentation.\nPlease ensure that all tests pass and that there are no errors or warnings before submitting your contribution. The check will provide detailed output, including any issues that need to be addressed.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Testing</span>"
+    ]
+  },
+  {
+    "objectID": "testing.html#continuous-integration",
+    "href": "testing.html#continuous-integration",
+    "title": "7  Testing",
+    "section": "7.4 Continuous Integration",
+    "text": "7.4 Continuous Integration\nThe XYZ project uses continuous integration (CI) to automatically run tests whenever changes are made. This ensures that contributions do not break existing functionality. The CI configuration is defined in the .github/workflows/ci.yml file.\nWhen you submit a pull request, the CI system will automatically run the test suite and provide feedback on the results. If any tests fail, you will need to address those issues before your contribution can be merged.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Testing</span>"
+    ]
+  },
+  {
+    "objectID": "documentation.html",
+    "href": "documentation.html",
+    "title": "8  Documentation",
+    "section": "",
+    "text": "8.1 Writing Documentation\nThe documentation for the XYZ project is an essential part of the contribution process. It helps users understand how to use the software and provides guidance for developers contributing to the project. This section outlines how to write and maintain documentation effectively.\nThe documentation is written using {roxygen2}, and is stored at the top of each function.\nPlease document all the functions you add or modify in the project. Use clear and concise language, and follow these guidelines:",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "documentation.html#writing-documentation",
+    "href": "documentation.html#writing-documentation",
+    "title": "8  Documentation",
+    "section": "",
+    "text": "Use proper formatting: Use Markdown syntax for formatting text, including headings, lists, and code blocks.\nBe descriptive: Clearly explain the purpose of each function, its parameters, and its return values.\nInclude examples: Provide examples of how to use the function, including input and expected output.\nUse consistent terminology: Use consistent terms and phrases throughout the documentation to avoid confusion.\nKeep it up to date: Update the documentation whenever you make changes to the code or functionality. This ensures that users and contributors have the most accurate information.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "documentation.html#generating-documentation",
+    "href": "documentation.html#generating-documentation",
+    "title": "8  Documentation",
+    "section": "8.2 Generating Documentation",
+    "text": "8.2 Generating Documentation\nTo generate the documentation for the XYZ project, use the following command:\nRscript -e \"devtools::document()\"\nThis command will process the {roxygen2} comments in the code and generate the documentation files in the man/ directory. Make sure to run this command after making changes to the documentation comments to keep the documentation up to date.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "9  Frequently Asked Questions (FAQ)",
+    "section": "",
+    "text": "9.1 What is XYZ?\nXYZ is an open-source project designed to [briefly describe the purpose and functionality of the project]. It aims to [mention the goals or problems it addresses].",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Frequently Asked Questions (FAQ)</span>"
+    ]
+  },
+  {
+    "objectID": "faq.html#how-can-i-contribute-to-xyz",
+    "href": "faq.html#how-can-i-contribute-to-xyz",
+    "title": "9  Frequently Asked Questions (FAQ)",
+    "section": "9.2 How can I contribute to XYZ?",
+    "text": "9.2 How can I contribute to XYZ?\nYou can contribute to XYZ in various ways, including:\n\nReporting bugs or issues\nSuggesting new features or improvements\nWriting documentation\nReviewing pull requests\nDeveloping new features or fixing bugs\n\nTo get started, check out the Contributing Guide for detailed instructions on how to contribute.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Frequently Asked Questions (FAQ)</span>"
+    ]
+  },
+  {
+    "objectID": "faq.html#how-do-i-report-a-bug",
+    "href": "faq.html#how-do-i-report-a-bug",
+    "title": "9  Frequently Asked Questions (FAQ)",
+    "section": "9.3 How do I report a bug?",
+    "text": "9.3 How do I report a bug?\nIf you encounter a bug in XYZ, please report it by following these steps:\n\nCheck the issue tracker to see if the bug has already been reported.\nIf not, create a new issue with a clear and descriptive title.\nProvide detailed information about the bug, including steps to reproduce it, expected behavior, and actual behavior.\nInclude any relevant screenshots or error messages to help us understand the issue.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Frequently Asked Questions (FAQ)</span>"
+    ]
+  },
+  {
+    "objectID": "faq.html#how-do-i-request-a-new-feature",
+    "href": "faq.html#how-do-i-request-a-new-feature",
+    "title": "9  Frequently Asked Questions (FAQ)",
+    "section": "9.4 How do I request a new feature?",
+    "text": "9.4 How do I request a new feature?\nIf you have an idea for a new feature or improvement, please follow these steps:\n\nCheck the issue tracker to see if the feature has already been requested.\nIf not, create a new issue with a clear and descriptive title.\nDescribe the feature in detail, including its purpose, how it would work, and any potential benefits.\nIf possible, provide examples or mockups to illustrate your idea.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Frequently Asked Questions (FAQ)</span>"
+    ]
+  }
+]

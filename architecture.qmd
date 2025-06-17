@@ -1,0 +1,18 @@
+# Architecture
+
+## Overview
+
+The architecture of our project is designed to be modular and scalable, allowing for easy integration of new features and components. The system is built on a microservices architecture, which enables independent development and deployment of services.
+
+## Components
+
+The main components of the architecture include:
+
+- **Frontend**: The user interface built with React, providing a responsive and interactive experience.
+- **Backend**: The server-side logic implemented in Node.js, handling API requests and business logic.
+- **Database**: A PostgreSQL database for persistent data storage, ensuring data integrity and reliability.
+
+Here is a schematic representation of the architecture:
+
+![Architecture Diagram](./images/architecture-diagram.png)
+

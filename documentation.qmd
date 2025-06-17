@@ -1,0 +1,25 @@
+# Documentation
+
+The documentation for the XYZ project is an essential part of the contribution process. It helps users understand how to use the software and provides guidance for developers contributing to the project. This section outlines how to write and maintain documentation effectively.
+
+## Writing Documentation
+
+The documentation is written using `{roxygen2}`, and is stored at the top of each function.
+
+Please document all the functions you add or modify in the project. Use clear and concise language, and follow these guidelines:
+
+- **Use proper formatting**: Use Markdown syntax for formatting text, including headings, lists, and code blocks.
+- **Be descriptive**: Clearly explain the purpose of each function, its parameters, and its return values.
+- **Include examples**: Provide examples of how to use the function, including input and expected output.
+- **Use consistent terminology**: Use consistent terms and phrases throughout the documentation to avoid confusion.
+- **Keep it up to date**: Update the documentation whenever you make changes to the code or functionality. This ensures that users and contributors have the most accurate information.
+
+## Generating Documentation
+
+To generate the documentation for the XYZ project, use the following command:
+
+```bash
+Rscript -e "devtools::document()"
+```
+
+This command will process the `{roxygen2}` comments in the code and generate the documentation files in the `man/` directory. Make sure to run this command after making changes to the documentation comments to keep the documentation up to date.

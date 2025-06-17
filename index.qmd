@@ -1,0 +1,27 @@
+# Index {.unnumbered}
+
+Welcome to XYZ Contributor's Guide!
+
+This guide is designed to help you navigate the process of contributing to the project. Whether you're a seasoned developer or new to open source, you'll find valuable information here to get started.
+
+This guide is structured to provide a comprehensive overview of the contribution process, including:
+
+- [A project overview and goals](./project-overview.qmd)
+
+- [How to communicate with the community and how the project is governed](./communication-and-governance.qmd)
+
+- [The architecture of the project](./architecture.qmd)
+
+- [Hot to get involved in the project](./contributing.qmd)
+
+- [How to set up your development environment](./development-environment.qmd)
+
+- Guidelines for [writing code](./coding-standards.qmd) and [documentation](./documentation.qmd)
+
+- [Testing your contributions](./testing.qmd)
+
+- [Frequently Asked Questions](./faq.qmd) and [external resources](./resources.qmd)
+
+We encourage you to read through the entire guide, as it will help you understand the project's structure and the expectations for contributions. If you have any questions or need assistance, feel free to reach out to the community through our communication channels.
+
+We appreciate your interest in contributing to XYZ and look forward to your contributions!
