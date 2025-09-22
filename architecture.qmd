@@ -1,18 +1,131 @@
 # Architecture
 
+<style>
+.mermaid-js rect{
+  fill: lightyellow!important;
+}
+</style>
+
+
 ## Overview
 
 The architecture of our project is designed to be modular and scalable, allowing for easy integration of new features and components. The system is built on a microservices architecture, which enables independent development and deployment of services.
 
-## Components
+## File organisation
 
-The main components of the architecture include:
+The source code of the application is organized into several directories, each serving a specific purpose:
 
-- **Frontend**: The user interface built with React, providing a responsive and interactive experience.
-- **Backend**: The server-side logic implemented in Node.js, handling API requests and business logic.
-- **Database**: A PostgreSQL database for persistent data storage, ensuring data integrity and reliability.
+- `R/`: Contains the R scripts that define the core functionality of the application.
+...
 
-Here is a schematic representation of the architecture:
+## System context diagram
 
-![Architecture Diagram](./images/architecture-diagram.png)
 
+- The User interacts with the Web Application.
+- The Web Application sends requests to the REST API.
+- The REST API reads from and writes to the Database.
+- The REST API authenticates via the Authentication Service.
+- The REST API integrates with External Services.
+
+```{mermaid}
+graph TD
+  User[User]
+  WebApp[Web Application]
+  API[REST API]
+  Auth[Authentication Service]
+  DB[(Database)]
+  External[External Services]
+
+  User -->|Interacts| WebApp
+  WebApp -->|Requests| API
+  API -->|Reads/Writes| DB
+  API -->|Authenticates| Auth
+  API -->|Integrates| External
+```
+
+
+## Container Diagram
+
+- **User**: Interacts with the system via the web interface.
+- **Web Application (Frontend)**: Provides the user interface and communicates with the backend.
+- **REST API (Backend)**: Handles business logic, data processing, and integration.
+- **Authentication Service**: Manages user authentication and authorization.
+- **Database**: Stores application data.
+- **External Services**: Integrates with third-party APIs or services.
+
+```{mermaid}
+graph TD
+  subgraph Frontend
+    WebApp[Web Application]
+  end
+  subgraph Backend
+    API[REST API]
+    Auth[Authentication Service]
+    DB[(Database)]
+    External[External Services]
+  end
+  User[User] -->|Interacts| WebApp
+  WebApp -->|Requests| API
+  API -->|Reads/Writes| DB
+  API -->|Authenticates| Auth
+  API -->|Integrates| External
+```
+
+## Component Diagram
+
+1. The application is split into shiny modules, allowing [separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns), code reuse, and [id namespacing](https://engineering-shiny.org/structuring-project.html#why-shiny-modules).
+2. The run_app function builds the shiny object, itself having both app_ui & app_server
+3. The business logic of each module is handled in its own function
+
+
+```{mermaid}
+flowchart TD
+  run_app --> ShinyApp
+  ShinyApp --> app_ui
+  ShinyApp --> app_server
+  app_ui --> Module1_UI
+  app_ui --> Module2_UI
+  app_server --> Module1_Server
+  app_server --> Module2_Server
+  Module1_Server --> BusinessLogic1
+  Module2_Server --> BusinessLogic2
+```
+
+## Code diagram
+
+- The UI contains:
+  - An HTML output named 'xyz'
+  - A select input named 'value'
+- The server logic includes:
+  - An observeEvent that reacts to changes in 'value'
+  - A reactiveValues object for storing reactive state
+  - The observeEvent updates reactiveValues
+  - reactiveValues triggers rendering of the UI output 'xyz'
+- The rendered UI output 'xyz' is displayed in the UI
+
+```{mermaid}
+    flowchart TD
+        subgraph Module1_UI["Module1_UI"]
+          xyz["htmlOutput('xyz')"]
+          value["selectInput('value')"]
+        end
+        %% server
+        subgraph Module1_server["Module1_server"]
+          observeEventvalue["observeEvent(input$value)"]
+          reactiveValues["rv <- reactiveValues()"]
+          value -->|triggers| observeEventvalue
+          observeEventvalue -->|fills| reactiveValues
+          reactiveValues -->|triggers| output_xyz["output$xyz <- renderUI()"]
+          output_xyz -->|renders| xyz
+        end
+        %% Reactivity
+        %% UI
+        style xyz fill: lightgreen
+        style value fill: lightgreen,stroke:yellow,stroke-width:2px
+
+        %% Server
+        style observeEventvalue fill: lightblue,stroke:yellow,stroke-width:2px
+        style reactiveValues fill: lightblue,stroke:red,stroke-width:2px
+        style output_xyz fill: lightblue,stroke:lightgreen,stroke-width:2px
+
+```
