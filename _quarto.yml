@@ -6,17 +6,28 @@ book:
   author: "Norah Jones"
   date: "6/16/2025"
   chapters:
-    - index.qmd
-    - project-overview.qmd
-    - communication-and-governance.qmd
-    - architecture.qmd
-    - contributing.qmd
-    - development-environment.qmd
-    - coding-standards.qmd
-    - testing.qmd
-    - documentation.qmd
-    - faq.qmd
-    - resources.qmd
+    - part: "Introduction"
+      chapters:
+        - index.qmd
+        - project-overview.qmd
+        - communication-and-governance.qmd
+    - part: "Contributing"
+      chapters:
+        - contributing.qmd
+        - coding-standards.qmd
+        - development-environment.qmd
+    - part: "Development"
+      chapters:
+        - architecture.qmd
+        - testing.qmd
+        - documentation.qmd
+    - part: "Deployment"
+      chapters:
+        - deployment.qmd
+    - part: "Resources"
+      chapters:
+        - faq.qmd
+        - resources.qmd
 
 bibliography: references.bib
 
